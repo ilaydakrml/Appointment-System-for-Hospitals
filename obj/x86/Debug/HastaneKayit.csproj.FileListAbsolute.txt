@@ -227,3 +227,22 @@ C:\Users\Asus\Desktop\ilayda kırımlı randevu takip\HastaneKayit\obj\x86\Debug
 C:\Users\Asus\Desktop\ilayda kırımlı randevu takip\HastaneKayit\obj\x86\Debug\HastaneKayit.csproj.CoreCompileInputs.cache
 C:\Users\Asus\Desktop\ilayda kırımlı randevu takip\HastaneKayit\obj\x86\Debug\HastaneKayit.exe
 C:\Users\Asus\Desktop\ilayda kırımlı randevu takip\HastaneKayit\obj\x86\Debug\HastaneKayit.pdb
+C:\Users\Asus\Desktop\repos\Hastane-Randevu-Sistemi\bin\Debug\HastaneKayit.exe.config
+C:\Users\Asus\Desktop\repos\Hastane-Randevu-Sistemi\bin\Debug\HastaneKayit.exe
+C:\Users\Asus\Desktop\repos\Hastane-Randevu-Sistemi\bin\Debug\HastaneKayit.pdb
+C:\Users\Asus\Desktop\repos\Hastane-Randevu-Sistemi\obj\x86\Debug\HastaneKayit.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\repos\Hastane-Randevu-Sistemi\obj\x86\Debug\HastaneKayit.csproj.SuggestedBindingRedirects.cache
+C:\Users\Asus\Desktop\repos\Hastane-Randevu-Sistemi\obj\x86\Debug\HastaneKayit.AdminPaneli.resources
+C:\Users\Asus\Desktop\repos\Hastane-Randevu-Sistemi\obj\x86\Debug\HastaneKayit.AlinanRandevular.resources
+C:\Users\Asus\Desktop\repos\Hastane-Randevu-Sistemi\obj\x86\Debug\HastaneKayit.Doktor.resources
+C:\Users\Asus\Desktop\repos\Hastane-Randevu-Sistemi\obj\x86\Debug\HastaneKayit.DoktorBilgileri.resources
+C:\Users\Asus\Desktop\repos\Hastane-Randevu-Sistemi\obj\x86\Debug\HastaneKayit.Form1.resources
+C:\Users\Asus\Desktop\repos\Hastane-Randevu-Sistemi\obj\x86\Debug\HastaneKayit.ParolamiUnuttum.resources
+C:\Users\Asus\Desktop\repos\Hastane-Randevu-Sistemi\obj\x86\Debug\HastaneKayit.Properties.Resources.resources
+C:\Users\Asus\Desktop\repos\Hastane-Randevu-Sistemi\obj\x86\Debug\HastaneKayit.randevuAra.resources
+C:\Users\Asus\Desktop\repos\Hastane-Randevu-Sistemi\obj\x86\Debug\HastaneKayit.uyeGuncelle.resources
+C:\Users\Asus\Desktop\repos\Hastane-Randevu-Sistemi\obj\x86\Debug\HastaneKayit.yeniUye.resources
+C:\Users\Asus\Desktop\repos\Hastane-Randevu-Sistemi\obj\x86\Debug\HastaneKayit.csproj.GenerateResource.cache
+C:\Users\Asus\Desktop\repos\Hastane-Randevu-Sistemi\obj\x86\Debug\HastaneKayit.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\repos\Hastane-Randevu-Sistemi\obj\x86\Debug\HastaneKayit.exe
+C:\Users\Asus\Desktop\repos\Hastane-Randevu-Sistemi\obj\x86\Debug\HastaneKayit.pdb
