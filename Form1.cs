@@ -1,4 +1,4 @@
-﻿using System;//www.gorselprogramlama.com
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using System.Data.OleDb;//www.gorselprogramlama.com
+using System.Data.OleDb;
 
 namespace HastaneKayit
 {
@@ -15,7 +15,7 @@ namespace HastaneKayit
 
         public Form1()
         {
-            InitializeComponent();//www.gorselprogramlama.com
+            InitializeComponent();
         }
        
 
@@ -33,7 +33,7 @@ namespace HastaneKayit
         {
             string banGunu = "";
             string banTarihi = "";
-            DateTime bugun = DateTime.Now;//www.gorselprogramlama.com
+            DateTime bugun = DateTime.Now;
             banlanmismi = false;
             try
             {
@@ -52,7 +52,7 @@ namespace HastaneKayit
                 banTarihiDate = banTarihiDate.AddDays(int.Parse(banGunu));
                 DateTime bugununDate = DateTime.Parse(bugun.ToShortDateString());
                 TimeSpan kalanGun = banTarihiDate - bugununDate;
-                if (int.Parse(kalanGun.TotalDays.ToString()) > 0)//www.gorselprogramlama.com
+                if (int.Parse(kalanGun.TotalDays.ToString()) > 0)
                 {
                     MessageBox.Show("Sisteme " + kalanGun.TotalDays.ToString() + " Gün Giriş İzniniz Yoktur");
                     giris_Yapildimi = true;
@@ -68,7 +68,7 @@ namespace HastaneKayit
 
         bool Admin_Girdimi = false;
         bool Doktor_Girdimi = false;
-        //www.gorselprogramlama.com
+        
         void Admin_Girisi()
         {
             //Admin_Girdimi = false;
@@ -112,7 +112,7 @@ namespace HastaneKayit
                 OleDbCommand cmd0 = new OleDbCommand("Select * From Doktorlar where KullaniciAdi='" + maskedtxtTC.Text + "' and Sifre='" + txtParola.Text + "'", uyelerBaglantisi);
                 cmd0.ExecuteNonQuery();
                 OleDbDataReader rd0 = cmd0.ExecuteReader();
-                while (rd0.Read())//www.gorselprogramlama.com
+                while (rd0.Read())
                 {
                     Doktor dr = new Doktor(maskedtxtTC.Text,txtParola.Text);
                     dr.Show();
@@ -132,7 +132,7 @@ namespace HastaneKayit
         {
             BanGunuGuncelle();
 
-            try//www.gorselprogramlama.com
+            try
                 {
                     uyelerBaglantisi.Open();
                     OleDbCommand cmd1 = new OleDbCommand("Select * From Uyeler where TC='" + maskedtxtTC.Text + "' and Parola='" + txtParola.Text + "'", uyelerBaglantisi);
@@ -161,7 +161,7 @@ namespace HastaneKayit
                     uyelerBaglantisi.Close();
                     MessageBox.Show("Bağlantı Sağlanamadı");
                 }
-            //www.gorselprogramlama.com
+            
         }
         
         private void btnGiris_Click(object sender, EventArgs e)
@@ -193,7 +193,7 @@ namespace HastaneKayit
         {
             if (e.KeyChar==(char)13)
             {
-                SendKeys.Send("{TAB}");//www.gorselprogramlama.com
+                SendKeys.Send("{TAB}");
             }
         }
 
@@ -208,7 +208,7 @@ namespace HastaneKayit
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
-            uyelerBaglantisi.Close();//www.gorselprogramlama.com
+            uyelerBaglantisi.Close();
         }
     }
 }
